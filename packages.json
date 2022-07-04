@@ -2,10 +2,10 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "The Main version of the pack",
-      "name" : "Wildfire",
+      "title" : "Wildfire",
+      "name" : "Wildfire-Maxxed",
       "version" : "2022-07-03-18-48-38",
-      "location" : "wildfire.json",
+      "location" : "wildfire-maxxed.json",
       "priority" : 0
     }
   ]
