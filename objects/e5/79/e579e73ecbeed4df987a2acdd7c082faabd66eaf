@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 4.0d,
+	dependencies: [
+		"8cf2f9e1"
+	],
+	tasks: [{
+		uid: "b0fbc751",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:bolt"
+		}]
+	}]
+}

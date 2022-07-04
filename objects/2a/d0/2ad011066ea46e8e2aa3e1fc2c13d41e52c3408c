@@ -1,0 +1,14 @@
+{
+    "url": "https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
+    "installationPolicy": {
+        "continueOnFailedDownload": true,
+        "optionalKey": "$",
+        "selectedByDefault": true,
+        "name": "Optifine",
+        "description": "You can choose whether or not to install optifine for shaders and optimization how ever the pack works just fine without it."
+     },
+
+    "follows": ["preview OptiFine 1.12.2 HD U G6 pre1"],
+    "fileName": "OptiFine_1.12.2_HD_U_G6_pre1.jar",
+    "options": { "launchwrapperTweakerForceNext": true }
+}

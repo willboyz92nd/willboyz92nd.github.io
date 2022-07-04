@@ -1,0 +1,22 @@
+{
+	title: "You can place essance here.",
+	x: 0.0d,
+	y: 6.0d,
+	description: "These can go along the sides of a imbunement altar",
+	text: [
+		""
+	],
+	dependencies: [
+		"7b722574"
+	],
+	tasks: [{
+		uid: "116bd3f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:receptacle"
+		}]
+	}]
+}

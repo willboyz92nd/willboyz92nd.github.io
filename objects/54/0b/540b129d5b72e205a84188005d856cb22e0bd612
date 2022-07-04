@@ -1,0 +1,27 @@
+{
+	title: "Clean water",
+	x: 0.0d,
+	y: -1.0d,
+	description: "No you can't drink it",
+	text: [
+		""
+	],
+	dependencies: [
+		"a3a94476"
+	],
+	tasks: [{
+		uid: "86ade2fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:freshwateritem"
+		}]
+	}],
+	rewards: [{
+		uid: "a4192d20",
+		type: "random",
+		table: 0
+	}]
+}

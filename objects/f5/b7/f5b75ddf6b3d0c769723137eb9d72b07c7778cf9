@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"4992eb32",
+		"7d57be57"
+	],
+	tasks: [{
+		uid: "136a13c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_silk"
+		}]
+	}],
+	rewards: [{
+		uid: "35e9b598",
+		type: "random",
+		table: 0
+	}]
+}

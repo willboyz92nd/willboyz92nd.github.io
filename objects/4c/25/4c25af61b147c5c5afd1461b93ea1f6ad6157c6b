@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"Boomerangs are throwable weapons that return back to you without needing to be picked up as long as they dont  get stuck on someing on the way back"
+	],
+	tasks: [{
+		uid: "cd3c7711",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:boomerang_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

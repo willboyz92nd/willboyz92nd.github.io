@@ -1,0 +1,33 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	dependencies: [
+		"6e121cb2",
+		"acc12772"
+	],
+	tasks: [{
+		uid: "b96bc8ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simpledifficulty:chiller"
+		}]
+	},
+	{
+		uid: "3b7e3bcd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simpledifficulty:heater"
+		}]
+	}],
+	rewards: [{
+		uid: "7ae7fbda",
+		type: "random",
+		table: 0
+	}]
+}

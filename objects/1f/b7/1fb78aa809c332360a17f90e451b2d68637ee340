@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"pikes are bigger better spears but are also heavy "
+	],
+	tasks: [{
+		uid: "c2d11647",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:pike_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

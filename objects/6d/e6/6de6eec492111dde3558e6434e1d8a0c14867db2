@@ -1,0 +1,17 @@
+{
+	title: "Your quest begins",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {},
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ftbquests:custom_icon",
+		tag: {
+			SmithsCore-CapData: {},
+			icon: "ftblib:textures/icons/support.png"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "diamond"
+}

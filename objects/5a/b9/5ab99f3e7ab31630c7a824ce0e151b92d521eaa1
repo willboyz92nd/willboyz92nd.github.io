@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: 1.5d,
+	text: [
+		"Longbows are more powerfull versions of the normal bow"
+	],
+	tasks: [{
+		uid: "ff1abec8",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:longbow_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

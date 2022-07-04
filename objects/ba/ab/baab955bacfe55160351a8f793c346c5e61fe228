@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"Handles are the main tool needed for most of the items in this mod made with just a stick and a string"
+	],
+	tasks: [{
+		uid: "a431767b",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:material"
+		}]
+	}]
+}

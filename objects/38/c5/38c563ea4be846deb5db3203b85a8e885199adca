@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"The battleaxe is a versatile two-handed tool that deals massive damage and doubles as an axe. "
+	],
+	tasks: [{
+		uid: "2107b412",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:battleaxe_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "RGB SANDWICH!",
+	x: 6.0d,
+	y: -6.0d,
+	description: "Cook up an epic BLT",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "49da22e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:epicbltitem"
+		}]
+	}],
+	rewards: [{
+		uid: "e5996fdc",
+		type: "random",
+		table: 0
+	}]
+}

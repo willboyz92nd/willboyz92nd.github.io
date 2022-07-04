@@ -1,0 +1,36 @@
+{
+	title: "Chunky",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"Magma chunks can be obtained by breaking magma blocks in the nether while ice chunks can be obtained by breaking ice"
+	],
+	dependencies: [
+		"11814c9f"
+	],
+	tasks: [{
+		uid: "53a3997e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simpledifficulty:magma_chunk"
+		}]
+	},
+	{
+		uid: "4eeef8a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simpledifficulty:ice_chunk"
+		}]
+	}],
+	rewards: [{
+		uid: "d6c3dde0",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"ffb46398"
+	],
+	tasks: [{
+		uid: "3dab2917",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:arcane_workbench"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"Poles are used for some of the bigger two handed items in this mod"
+	],
+	tasks: [{
+		uid: "431e949d",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:material 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,96 @@
+{
+	title: "The smeltery",
+	x: 7.5d,
+	y: -0.5d,
+	description: "The book of brutes contains knowledge of advanced weaponry",
+	text: [
+		"The smeltery can be used and is required to smelt most ores"
+	],
+	dependencies: [
+		"33229ab4"
+	],
+	tasks: [{
+		uid: "d0d0e22c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "cd29b385",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared_tank",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "0a2856e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "488f9f8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "75f646d6",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "058bd3af",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "loreexpansion:lore_scrap",
+			tag: {
+				lore: {
+					id: "overworld1",
+					category: "global"
+				},
+				SmithsCore-CapData: {}
+			}
+		}
+	},
+	{
+		uid: "cd006143",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7c241e1b",
+		type: "gamestage",
+		title: "Knowledge of Smithing",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "spartantwilight:greatsword_ironwood"
+		},
+		auto: "no_toast",
+		stage: "weaponstage"
+	}]
+}

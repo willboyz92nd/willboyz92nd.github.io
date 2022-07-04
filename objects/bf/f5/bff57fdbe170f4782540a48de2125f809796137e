@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "starter",
+    "category": "global"
+  },
+  "content": {
+    "title": "Words to live by",
+    "body": "The mind and body encompasses the soul. (find the pages)",
+    "audio": "tutorial",
+    "autoplay": true
+  },
+  "sortingIndex": 0,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

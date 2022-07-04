@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	optional: true,
+	tasks: [{
+		uid: "42d26fba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "wilderfires:inactivewildfire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dde26f5",
+		type: "random",
+		table: 1
+	}]
+}

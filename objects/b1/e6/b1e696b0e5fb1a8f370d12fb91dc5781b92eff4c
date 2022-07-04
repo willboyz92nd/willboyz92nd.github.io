@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"Sabers are one of the best combat choices because dispite their low damage because they can take 25% of damage dealt to you in their durablity and they share the unarmored attack bonus with katanas."
+	],
+	tasks: [{
+		uid: "fd882e2b",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:saber_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
