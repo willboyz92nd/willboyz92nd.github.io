@@ -1,3 +1,0 @@
-T:{ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{},"customnpcs:itemscripteddata":{}},id:"thermalexpansion:capacitor",Count:1b,tag:{Energy:9000000},Damage:2s}
-T:{ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{},"customnpcs:itemscripteddata":{}},id:"cfm:item_knife",Count:1b,tag:{ench:[{lvl:13s,id:97s},{lvl:14s,id:82s},{lvl:14s,id:87s},{lvl:17s,id:23s}],display:{Name:"Cake Maker =)"}},Damage:0s}
-T:{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:iron_ore",Count:1b,Damage:0s}
