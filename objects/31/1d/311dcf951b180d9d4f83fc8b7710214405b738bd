@@ -1,0 +1,44 @@
+{
+	title: "Hoes for days",
+	x: 1.5d,
+	y: 2.5d,
+	description: "craft a flint hoe",
+	text: [
+		"You should already know what one of these do."
+	],
+	dependencies: [
+		"ba1db1a8"
+	],
+	tasks: [{
+		uid: "1a879400",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "notreepunching:hoe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8194ee52",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "07b2b10e",
+		type: "gamestage",
+		title: "Knowledge of Agraculture",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "blue_skies:everbright_turquoise_hoe"
+		},
+		auto: "no_toast",
+		stage: "farmingstage"
+	}]
+}

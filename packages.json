@@ -7,6 +7,13 @@
       "version" : "2022-07-03-18-48-38",
       "location" : "wildfire.json",
       "priority" : 0
+    },
+    {
+      "title" : "Wildfire(Primary)",
+      "name" : "Wildfire Maxed",
+      "version" : "2022-07-04-11-35-15",
+      "location" : "wildfire-maxed.json",
+      "priority" : 0
     }
   ]
 }

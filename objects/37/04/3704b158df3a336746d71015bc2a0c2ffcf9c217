@@ -1,0 +1,16 @@
+{
+	x: -7.5d,
+	y: 2.5d,
+	text: [
+		"Glaives  are two handed weapons that deal extra damage to groups of mobs and have a longer range"
+	],
+	tasks: [{
+		uid: "c9637df1",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:glaive_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

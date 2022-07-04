@@ -1,0 +1,27 @@
+{
+	title: "Wax was that?",
+	x: -2.5d,
+	y: 0.5d,
+	description: "Press a pot aginst berries to get wax",
+	text: [
+		""
+	],
+	dependencies: [
+		"ea7738af"
+	],
+	tasks: [{
+		uid: "0f20c617",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:beeswaxitem"
+		}]
+	}],
+	rewards: [{
+		uid: "a49d4233",
+		type: "random",
+		table: 0
+	}]
+}

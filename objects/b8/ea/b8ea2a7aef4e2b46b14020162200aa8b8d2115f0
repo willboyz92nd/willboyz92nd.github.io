@@ -1,0 +1,28 @@
+{
+	title: "Hot and steamy!",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Craft a basic steam dynamo.",
+	text: [
+		"The steam dynamo converts solid fuel(coal and such) and luqid fuel(water in this case) into RF which is the power system wildfire runs on. In order to rapidly supply water to the steam dynamo without just filling it with water buckets you will want to complete the opional quest that will be on the left and right of this one."
+	],
+	dependencies: [
+		"0834032c"
+	],
+	tasks: [{
+		uid: "fc2daaf4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

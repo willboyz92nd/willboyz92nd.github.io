@@ -1,0 +1,16 @@
+{
+	x: -6.0d,
+	y: 2.5d,
+	text: [
+		"Worse glaive"
+	],
+	tasks: [{
+		uid: "634cd30a",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:staff_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

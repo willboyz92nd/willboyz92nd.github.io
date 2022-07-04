@@ -1,0 +1,109 @@
+{
+	title: "A flame for the night",
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"The recipe for flint and steel has been changed to reqiure a rock, The camp fire can be used to setup a source of light for night time"
+	],
+	dependencies: [
+		"d7e0a467"
+	],
+	tasks: [{
+		uid: "430a9722",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simpledifficulty:campfire"
+		}]
+	},
+	{
+		uid: "d053482c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29a192ec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				SmithsCore-CapData: {},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 54,
+					HarvestLevel: 1,
+					Attack: 2.9f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"flint",
+						"flint",
+						"flint"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "crude",
+					color: -9868951,
+					level: 3,
+					crude1: 1b,
+					crude2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"crude1",
+					"crude2",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		uid: "d678a23a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "levelup2:skillbook"
+		}
+	}]
+}

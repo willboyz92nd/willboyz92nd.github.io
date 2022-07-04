@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"Warhammers are special because unlike some of the other weapons this one deals more damage to armored foes. (Good if you get a knightly one)"
+	],
+	tasks: [{
+		uid: "7d527781",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:warhammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

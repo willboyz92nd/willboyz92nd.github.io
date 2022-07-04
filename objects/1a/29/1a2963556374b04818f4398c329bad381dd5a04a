@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"The mace deals extra damage to undead mobs"
+	],
+	tasks: [{
+		uid: "6e6db8f6",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:mace_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

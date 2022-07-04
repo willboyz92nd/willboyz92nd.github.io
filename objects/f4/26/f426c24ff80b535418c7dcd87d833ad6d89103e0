@@ -1,0 +1,70 @@
+{
+	title: "Tougher than nails!",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Create hardened leather armor for extra protection against physical damage",
+	text: [
+		""
+	],
+	dependencies: [
+		"ea7738af",
+		"a3368a60"
+	],
+	tasks: [{
+		uid: "adb20bd0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hardenedleatherleggingsitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6993e717",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hardenedleatherbootsitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d385839d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hardenedleatherhelmitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd43d2bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hardenedleatherchestitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ebddc29b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "The  veggie club",
+	x: -1.0d,
+	y: 0.0d,
+	description: "create a veggie strip",
+	text: [
+		""
+	],
+	dependencies: [
+		"0dac4c73"
+	],
+	tasks: [{
+		uid: "cb67b944",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:veggiestripsitem"
+		}]
+	}],
+	rewards: [{
+		uid: "6dad828a",
+		type: "random",
+		table: 0
+	}]
+}

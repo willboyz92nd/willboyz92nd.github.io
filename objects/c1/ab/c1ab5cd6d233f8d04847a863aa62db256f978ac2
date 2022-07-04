@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: -4.5d,
+	text: [
+		"Daggers are very cheap and lightwight items and can be thrown for  a ranged attack"
+	],
+	tasks: [{
+		uid: "2299ee6c",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:dagger_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

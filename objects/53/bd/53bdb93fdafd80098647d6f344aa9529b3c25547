@@ -1,0 +1,8 @@
+{
+    "url": "https://mediafiles.forgecdn.net/files/3540/284/TheBetweenlands-3.8.1-universal.jar",
+    "installationPolicy": {},
+
+    "follows": ["Betweenlands-3.8.1-universal.jar"],
+    "fileName": "Betweenlands-3.8.1-universal.jar",
+    "options": { "launchwrapperTweakerForceNext": true }
+}

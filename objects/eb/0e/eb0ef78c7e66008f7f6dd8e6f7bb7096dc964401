@@ -1,0 +1,33 @@
+{
+	title: "Yummy!",
+	x: 1.5d,
+	y: 1.0d,
+	description: "Craft a campfire spit",
+	text: [
+		"The camp fire spit can be used to cook food over a camp fire"
+	],
+	dependencies: [
+		"151a25e7"
+	],
+	tasks: [{
+		uid: "9a7d3ab4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simpledifficulty:spit"
+		}]
+	}],
+	rewards: [{
+		uid: "62f69383",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:porkchop"
+		},
+		count: 3
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	x: 5.5d,
+	y: -0.5d,
+	dependencies: [
+		"9fe56c2c"
+	],
+	tasks: [{
+		uid: "d78c8b13",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials"
+		}]
+	},
+	{
+		uid: "b63e61ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:soil"
+		}]
+	}],
+	rewards: [{
+		uid: "11a56c43",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		},
+		count: 10
+	},
+	{
+		uid: "cc3d03cd",
+		type: "random",
+		table: 0
+	}]
+}

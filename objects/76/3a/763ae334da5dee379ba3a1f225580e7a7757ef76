@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -1.5d,
+	text: [
+		"Great swords are very strong weapons being similar to  a long sword but unlike a long sword greatswords have an extra damage sweeping range and damage and are also heavier giving even more of a penalty then a long sword"
+	],
+	tasks: [{
+		uid: "ba4ebd9f",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:greatsword_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

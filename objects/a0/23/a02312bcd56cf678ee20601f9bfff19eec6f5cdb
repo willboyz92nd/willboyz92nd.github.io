@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	dependencies: [
+		"cef8b4c0"
+	],
+	tasks: [{
+		uid: "9340f41d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "notreepunching:hoe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a437387",
+		type: "random",
+		table: 0
+	}]
+}
